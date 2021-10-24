@@ -6,14 +6,12 @@ import com.example.bookstore.dto.BookResponseDto;
 import com.example.bookstore.model.Book;
 import com.example.bookstore.service.BookService;
 import lombok.AllArgsConstructor;
-import org.apache.coyote.Response;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
